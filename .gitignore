@@ -1,0 +1,31 @@
+# Kubernetes
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Temporary files
+*.tmp
+*.bak
+*.log
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Secrets (should never be committed)
+*secret*.yaml
+*secret*.yml
+*.key
+*.pem
+*.crt
+*.p12
+.env
+
+# Helm
+charts/*/charts/
+charts/*/*.lock
+
+# Kustomize
+kustomization.yaml.bak

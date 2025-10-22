@@ -92,8 +92,7 @@ Deleting kind cluster...
 Creating kind cluster...
 Verifying nodes and CoreDNS...
 ```
-
-⸻
+---
 
 ## 🧰 **Common Make Targets**
 
@@ -104,8 +103,7 @@ make cluster-down	Deletes the cluster.
 make verify	Checks node and CoreDNS readiness.
 make repeat-test	Runs the repeatability test and logs output.
 ```
-
-⸻
+---
 
 ## 🔒 **Security Notes**
 
@@ -116,8 +114,7 @@ make repeat-test	Runs the repeatability test and logs output.
 chmod 600 ~/.kube/config
 ```
 No exposed NodePorts or ingress controllers are created by default.
-
-⸻
+---
 
 ## 🗂️ **Project Structure**
 ```
@@ -128,8 +125,7 @@ cluster-gitops/
 └── docs/
     └── BOOTSTRAP.md
 ```
-
-⸻
+---
 
 ## 🧭 **Next Steps**
 
@@ -137,8 +133,7 @@ cluster-gitops/
 	2.	✅ Commit logs and documentation to GitHub.
 	3.	🔜 Continue with the apps-sre repository to deploy sample applications.
 	4.	🔐 Optionally integrate GitOps tools such as ArgoCD or Flux.
-
-⸻
+---
 
 ## 🧩 **Related Documentation**
 

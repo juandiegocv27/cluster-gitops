@@ -1,0 +1,18 @@
+# Binaries
+argocd-linux-*
+argocd-linux-amd64
+helm-*-linux-amd64.tar.gz
+*.tar.gz
+*.tgz
+
+# Temp dirs from extracting helm or argocd
+linux-amd64/
+
+# Local scripts not meant for git
+scripts/*.sh
+
+# Values not meant to store here
+values.yam
+
+# Logs
+*.logl

@@ -156,5 +156,5 @@ kubectl create secret docker-registry ecr-pull-secret \
 
 | Repo | Role |
 |---|---|
-| [`infra-terraform`](https://github.com/juandiegocv27/infra-terraform) | Provisions AWS resources (ECR, IAM, Secrets Manager) |
+| [`shopstack`](https://github.com/juandiegocv27/infra-terraform) | Provisions AWS resources (ECR, IAM, Secrets Manager) |
 | [`apps-sre`](https://github.com/juandiegocv27/apps-sre) | Application code and CI pipeline — opens PRs to this repo |

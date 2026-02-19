@@ -10,3 +10,4 @@ images:
   - name: shopstack-catalog
     newName: 770132776547.dkr.ecr.us-east-1.amazonaws.com/shopstack-catalog
     newTag: "7d5b3cf2c15193c7d20a82dbc43851653f371a65"
+
